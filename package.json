@@ -28,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/marwanalsaydali/myShop/issues"
   },
-  "homepage": "https://github.com/marwanalsaydali/myShop#readme"
+  "homepage": "https://github.com/marwanalsaydali/myShop#readme",
+  "dependencies": {
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
