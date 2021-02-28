@@ -1,0 +1,32 @@
+{
+  "name": "myshop",
+  "version": "1.0.0",
+  "description": "Online store built from scratch uising React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marwanalsaydali/myShop.git"
+  },
+  "keywords": [
+    "React",
+    "Nextjs",
+    "Apollo",
+    "Keystonejs",
+    "Styled",
+    "Compomemts",
+    "hooks",
+    "GraphQL",
+    "Jest",
+    "and",
+    "testing"
+  ],
+  "author": "Marwan Alsaydali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marwanalsaydali/myShop/issues"
+  },
+  "homepage": "https://github.com/marwanalsaydali/myShop#readme"
+}
