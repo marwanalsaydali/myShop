@@ -1,7 +1,8 @@
+import Nav from "./Nav/Nav";
 function Layout({ children }) {
   return (
     <>
-      <nav>Nav</nav>
+      <Nav />
       {children}
       <footer>Footer</footer>
     </>
