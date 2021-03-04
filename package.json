@@ -33,6 +33,7 @@
   "homepage": "https://github.com/marwanalsaydali/myShop#readme",
   "dependencies": {
     "next": "^10.0.7",
+    "nprogress": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
