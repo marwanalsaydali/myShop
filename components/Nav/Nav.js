@@ -1,11 +1,16 @@
 import NavBar from "./Navbar";
 import NavLinks from "./NavLinks";
+import styled from "styled-components";
+
+const NavStyle = styled.div``;
 function Nav() {
   return (
-    <div className="nav__container">
-      <NavBar />
-      <NavLinks />
-    </div>
+    <nav>
+      <NavStyle>
+        <NavBar />
+        <NavLinks />
+      </NavStyle>
+    </nav>
   );
 }
 
