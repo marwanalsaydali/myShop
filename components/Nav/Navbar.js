@@ -2,6 +2,10 @@ import { MdLocalGroceryStore } from "react-icons/md";
 import Link from "next/link";
 import styled from "styled-components";
 
+const LogoContainer = styled.div`
+  margin: 10px auto;
+`;
+
 const Logo = styled.div`
   background-color: var(--black);
   color: var(--white);
@@ -13,14 +17,14 @@ const Logo = styled.div`
 `;
 function NavBar() {
   return (
-    <div className="nav__bar">
+    <LogoContainer>
       <Link href="/">
         <Logo>
           <MdLocalGroceryStore />
           MyShop
         </Logo>
       </Link>
-    </div>
+    </LogoContainer>
   );
 }
 

@@ -4,7 +4,8 @@ import styled from "styled-components";
 const NavLinkStyle = styled.div`
   display: flex;
   justify-content: center;
-  border: 1px black solid;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
   a {
     margin: 10px;
     text-transform: uppercase;
